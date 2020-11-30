@@ -3,7 +3,8 @@
 body {
     margin: 0;
     font-family: 'Fira Mono', monospace;
-    background: url('../files/video/bg.gif');
+    background-color: wheat;
+    display: block;
 }
 
 *,
@@ -20,4 +21,49 @@ h1,h2,h3,h4,h5,h6 {
     width: 100%;
     max-width: 1350px;
     margin: 0 auto;
+}
+
+.had {
+    display: block;
+    background-color: black;
+    height: 100px;
+}
+
+.menu-nav,a{
+    text-align: right;
+    padding-right: 3%;
+    text-decoration: none;
+    padding-top: 2%;
+    color: floralwhite;
+    font-size: large;
+}
+
+.first {
+    display: block;
+    padding-top: 1%;
+    background: url('https://xakep.ru/wp-content/uploads/2017/12/146936/badsanta-h-1.jpg');
+    background-position-x: center;
+    width: auto;
+    height: 500px;
+}
+
+.intro-text {
+    text-align: center;
+    padding-top: 2%;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: blanchedalmond;
+}
+
+.intro-text-second {
+    text-align: center;
+    padding-top: 1%;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: blanchedalmond;
+}
+
+.poloska {
+    box-sizing: border-box;
+    border-bottom: 10px solid black;
 }
