@@ -99,3 +99,43 @@ h1,h2,h3,h4,h5,h6 {
 
 .color {
     color: #B84646;
+}
+
+
+.second {
+    display: block;
+    padding-top: 1%;
+    background-color: rgb(255, 255, 255);
+    background-position-x: center;
+    width: auto;
+    height: 700px;
+}
+
+.tovar-1 {
+    position: absolute;
+    height: 434px;
+    width: 350px;
+    left: 10px;
+    top: 1000px;
+    border-radius: 10px;
+    
+    /* gradients/accent */
+    
+    background: linear-gradient(146.96deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #FFD100;
+    /* main shadow */
+    
+    box-shadow: 6px 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.menu-tovar {
+    position: absolute;
+    width: 1728px;
+    height: 82px;
+    left: 82px;
+    top: 830px;
+
+    background: #000000;
+    border-radius: 40px;
+}
+
