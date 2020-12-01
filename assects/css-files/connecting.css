@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: 'Fira Mono', monospace;
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
     display: block;
 }
 
@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .had {
     display: block;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     height: 100px;
 }
 
@@ -41,25 +41,33 @@ h1,h2,h3,h4,h5,h6 {
 .first {
     display: block;
     padding-top: 1%;
-    background: url('https://xakep.ru/wp-content/uploads/2017/12/146936/badsanta-h-1.jpg');
+    background: url('https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif');
     background-position-x: center;
     width: auto;
-    height: 500px;
+    height: 700px;
 }
 
 .intro-text {
-    text-align: center;
-    padding-top: 2%;
-    font-size: 50px;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: -15%;
+    font-size: 66px;
     font-family: 'Oswald', sans-serif;
     color: blanchedalmond;
 }
 
 .intro-text-second {
-    text-align: center;
-    padding-top: 1%;
-    font-size: 50px;
-    font-family: 'Oswald', sans-serif;
+    width: 460px;
+    height: 153px;
+    left: 104px;
+    top: 397px;
+
+    padding-left: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
     color: blanchedalmond;
 }
 
@@ -67,3 +75,27 @@ h1,h2,h3,h4,h5,h6 {
     box-sizing: border-box;
     border-bottom: 10px solid black;
 }
+
+.logo {
+    position: absolute;
+    width: 57px;
+    height: 48px;
+    left: 24px;
+    top: 20px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.rassbery {
+    width: 10px;
+    height: 10px;
+    margin-top: -14px;
+    padding-left: 40%;
+}
+
+.color {
+    color: #B84646;
